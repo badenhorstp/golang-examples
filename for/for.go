@@ -13,4 +13,20 @@ func main() {
 	for j := 7; j <= 9; j++ {
 		fmt.Println(j)
 	}
+
+	j := 0
+	for {
+		j++
+		fmt.Println(j)
+		if j == 10 {
+			break
+		}
+	}
+
+	for n := 0; n <= 5; n++ {
+		if n%2 == 0 {
+			continue
+		}
+		fmt.Println(n)
+	}
 }
